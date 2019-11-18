@@ -1,0 +1,416 @@
+body{
+  font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif,verdana;
+}
+
+#wapper{
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+.heeader img{
+  float: left;
+}
+
+.header-menu1{
+  float: right;
+  margin-left: 30%;
+}
+
+.social_share{
+  float: left;
+  margin-left: 150px;
+}
+
+.social_share ul li{
+  float: left;
+  margin-right: 3px;
+}
+
+.fontsize{
+  float: left;
+  margin-left: 20px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.fontsize ul li{
+  float: left;
+  margin-left: 5px;
+  font-size: 12.8px;
+}
+
+.fontsize a{
+  border: 1px solid black;
+  padding: 3px;
+
+}
+
+.fontsize a:hover{
+  background-color:#FFDBC9;
+}
+
+.small a{
+  background-color: #663300;
+  color: white;
+  padding: 3px;
+}
+
+.medium a{
+  font-weight:bolder;
+}
+
+.big a{
+ font-weight: bolder;
+ padding: 5px;
+}
+
+.header-menu2{
+  clear: both;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header-menu2 li{
+  float: left;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+#menu{
+  clear: both;
+  margin-bottom: 20px;
+}
+
+#menu ul{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+
+
+#menu ul a {
+  width:20%;
+  height:30px;
+  border-right: 1px solid #555555;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  text-align:center;
+  font-size: 13px;
+  background-color: #FCFCFC;
+}
+
+.home{
+  border-left: 1px solid #555555;
+  background-color:#444444;
+  color:white;
+  font-size: 14px;
+}
+
+.other{
+  color: #555555;
+}
+
+.other:hover{
+  background-color: #FDF5E6;
+}
+
+ul span{
+  color: #DAA520;
+  font-size: 1px;
+  font-weight: normal;
+}
+
+
+.content1{
+  display:flex;
+  margin-bottom: 10px;
+}
+
+.content1-left{
+  background-image: url(topimg_dcs.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 300px;
+  width: 50%;
+}
+
+.content1-right{
+  width: 50%;
+}
+
+.content1-right-up{
+  background-image: url(topimg_exc.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 150px;
+}
+
+.content1-right-down{
+  background-image: url(topimg_other.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 150px;
+}
+
+.content2{
+  font-weight: bolder;
+  font-size: small;
+}
+
+.content3{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.content3-left{
+  width: 70%;
+  margin-right: 20px;
+  background-color: #FCFCFC;
+  padding-top: 10PX;
+  overflow: scroll;
+  height: 250px;
+}
+
+.content3-left a{
+  color: blue;
+  border-bottom: 1px solid blue;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.content3-left a:hover{
+opacity: 0.7;
+transition-duration: 0.3s;
+}
+
+.content3-right{
+  width: 30%;
+}
+
+
+.content3-right li:hover{
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+
+.content4{
+  float: right;
+  margin-bottom: 30px;
+}
+
+.content4 a{
+  font-size: 10px;
+}
+
+.content5{
+  clear: both;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.content5 img{
+  height: 30px;
+}
+
+.footer-menu{
+  float: right;
+  font-size: 10px;
+}
+
+.footer-menu li{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.content6{
+  display:flex;
+  width: 100%;
+  font-size: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.content6 li{
+  margin-top: 3px;
+}
+
+
+.content6-1{
+  width: 20%;
+}
+
+.content6-2{
+  width: 20%;
+  border-left:1px solid black;
+  padding-left: 10px;
+}
+
+.content6-3{
+  width: 20%;
+  border-left:1px solid black;
+  padding-left: 10px;
+}
+
+.content6-4{
+  width: 20%;
+  border-left:1px solid black;
+  padding-left: 10px;
+}
+
+.f1{
+  font-weight: bolder;
+}
+
+
+
+.content7{
+  float: right;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+
+#sp-menu{
+  position:fixed;
+  top:0px;
+  right:10px;
+  width:20%;
+  background-color:blue;
+  color: white;
+  display:none;
+}
+
+@media(max-width: 590px){
+
+  #sp-menu{
+    display:block;
+    z-index: 100
+  }
+
+
+
+  #wapper{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
+  .heeader img{
+    float: none;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .header-menu1{
+    float:none;
+  }
+
+
+  .social_share {
+    float: left;
+    margin: 0 auto;
+    height: 30px;
+  }
+
+  .fontsize{
+    float:left;
+    margin:0 auto;
+    font-size: 15px;
+    padding-top: 10px;
+
+  }
+
+  #menu ul a {
+    font-size: 5px;
+    background-color: #FCFCFC;
+}
+
+  .content1{
+    display:block;
+  }
+
+  .content1-left {
+    background-image: url(topimg_dcs.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 300px;
+    width:100%;
+   }
+
+   .content1-right {
+       width: 100%;
+   }
+
+
+  .content3{
+    display: block;
+  }
+
+  .content3-left {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+
+  .content3-right{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+
+    .content5{
+      text-align: center;
+    }
+
+    .content6-1{
+      width: 25%;
+    }
+
+    .content6-2{
+      width: 25%;
+      border-left:1px solid black;
+      padding-left: 10px;
+    }
+
+    .content6-3{
+      width: 25%;
+      border-left:1px solid black;
+      padding-left: 10px;
+    }
+
+    .content6-4{
+      width: 25%;
+      border-left:1px solid black;
+      padding-left: 10px;
+    }
+
+
+
+    .footer-menu {
+    display: none;
+    font-size: 5px;
+}
+
+  .content7{
+    float: none;
+    text-align: center;
+  }
+
+}
+
